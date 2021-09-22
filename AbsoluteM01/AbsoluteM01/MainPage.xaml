@@ -4,13 +4,30 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AbsoluteM01.MainPage">
+             x:Class="AbsoluteM01.MainPage"
+             BackgroundColor="DarkBlue">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <AbsoluteLayout>
+        
+        <Image Source="bebeTablet.jpg"
+               AbsoluteLayout.LayoutBounds="50,40,250,110"
+               AbsoluteLayout.LayoutFlags="None"/>
+        
+        <BoxView BackgroundColor="Yellow"
+                 AbsoluteLayout.LayoutBounds="30,200,130,130"
+                 AbsoluteLayout.LayoutFlags="None" CornerRadius="100"/>
+        
+        <BoxView BackgroundColor="Green"
+                 AbsoluteLayout.LayoutBounds="190,200,120,130"
+                 AbsoluteLayout.LayoutFlags="None" />
+        
+        <Button BackgroundColor="Purple" 
+                Text="Enviar"
+                TextColor="White"
+                BorderWidth="1"
+                BorderColor="White"
+                AbsoluteLayout.LayoutBounds="50,400,250,130"
+                AbsoluteLayout.LayoutFlags="None"/>
+    </AbsoluteLayout>
 
 </ContentPage>
