@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30607.51
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsoluteM01.Android", "AbsoluteM01\AbsoluteM01.Android\AbsoluteM01.Android.csproj", "{E13C76CA-22CC-487C-A6DE-6085CE82B2A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsoluteM01", "AbsoluteM01\AbsoluteM01\AbsoluteM01.csproj", "{53D0DB41-96D4-4C66-B71B-AA02BE4A1C13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbsoluteM01", "AbsoluteM01\AbsoluteM01\AbsoluteM01.csproj", "{53D0DB41-96D4-4C66-B71B-AA02BE4A1C13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EB46A1B-8BAC-4D8E-9375-23F878C43F06}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

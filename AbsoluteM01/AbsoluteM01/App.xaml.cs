@@ -10,7 +10,7 @@ namespace AbsoluteM01
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage( new Page2());
         }
 
         protected override void OnStart()
